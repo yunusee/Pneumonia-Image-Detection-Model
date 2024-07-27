@@ -1,0 +1,21 @@
+# Pneumonia Detection Application
+
+This project is a machine learning application for detecting pneumonia and other common lung diseases from chest X-ray images. The application uses a convolutional neural network to classify X-ray images into categories. The project also includes a graphical user interface (GUI) built with PyQt5, allowing users to load and classify images.
+
+## Features
+
+- **Deep Learning Model**: Utilizes a CNN model trained on a dataset of chest X-ray images.
+- **Image Classification**: Classifies images as either "Normal" or "Pneumonia".
+- **User Interface**: A PyQt5-based GUI for easy image loading and classification.
+- **Model Selection**: Allows switching between different models using radio buttons.
+
+## Requirements
+
+- Python 3.6 or higher
+- PyQt5
+- TensorFlow
+- OpenCV
+- NumPy
+- pydicom
+- Matplotlib
+- Seaborn
