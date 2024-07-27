@@ -19,3 +19,5 @@ This project is a machine learning application for detecting pneumonia and other
 - pydicom
 - Matplotlib
 - Seaborn
+
+Drive link for saved models: https://drive.google.com/file/d/14zrUH2-n8CMQuaY8mB-4oQwr5v8glb_s/view?usp=sharing
