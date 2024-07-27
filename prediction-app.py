@@ -24,7 +24,7 @@ class PneumoniaDetector(QMainWindow):
         self.radio_model2 = QRadioButton("Multiple Diseases")
         self.radio_model1.setStyleSheet("color: black")
         self.radio_model2.setStyleSheet("color: black")
-        self.radio_model1.setChecked(True)  # Default selection
+        self.radio_model1.setChecked(True)
         radio_layout.addWidget(self.radio_model1)
         radio_layout.addWidget(self.radio_model2)
 
@@ -121,7 +121,7 @@ class PneumoniaDetector(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon("/Users/yunus/Downloads/WhatsApp Image 2024-07-25 at 12.54.45.jpeg")) # bunu app-icon.jpeg e giden file path yap
+    app.setWindowIcon(QIcon("/Users/yunus/Downloads/WhatsApp Image 2024-07-25 at 12.54.45.jpeg"))
     window = PneumoniaDetector()
     window.show()
     sys.exit(app.exec_())
