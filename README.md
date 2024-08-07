@@ -5,9 +5,8 @@ This project is a machine learning application for detecting pneumonia and other
 ## Features
 
 - **Deep Learning Model**: Utilizes a CNN model trained on a dataset of chest X-ray images.
-- **Image Classification**: Classifies images as either "Normal" or "Pneumonia".
+- **Image Classification**: Classifies images according to related diseases.
 - **User Interface**: A PyQt5-based GUI for easy image loading and classification.
-- **Model Selection**: Allows switching between different models using radio buttons.
 
 ## Requirements
 
