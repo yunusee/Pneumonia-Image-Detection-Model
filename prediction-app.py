@@ -101,7 +101,6 @@ class PneumoniaDetector(QMainWindow):
         return image
 
     def predict_image(self):
-        # Predict the label for the selected image
         if self.model and self.image_path:
             image = self.preprocess_image(self.image_path)
             if image is not None:
